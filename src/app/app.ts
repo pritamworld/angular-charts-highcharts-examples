@@ -10,6 +10,7 @@ import { DoughnutChart } from './highcharts/doughnut-chart/doughnut-chart';
 import { HighBarChart } from './highcharts/bar-chart/bar-chart';
 import { GuageChart } from './highcharts/guage-chart/guage-chart';
 
+import { AwesomeCounter } from './awesome-counter/awesome-counter';
 //Chart from Mock API
 import { DashboardBarChart } from './highcharts/dashboard-bar-chart/dashboard-bar-chart';
 @Component({
@@ -24,6 +25,7 @@ import { DashboardBarChart } from './highcharts/dashboard-bar-chart/dashboard-ba
     DoughnutChart,
     HighBarChart,
     DashboardBarChart,
+    AwesomeCounter,
     GuageChart
     //DatePipe, DecimalPipe, CurrencyPipe, JsonPipe
   ],
