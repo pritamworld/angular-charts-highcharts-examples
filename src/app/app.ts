@@ -9,6 +9,9 @@ import { PieChart } from './charts/pie-chart/pie-chart';
 import { DoughnutChart } from './highcharts/doughnut-chart/doughnut-chart';
 import { HighBarChart } from './highcharts/bar-chart/bar-chart';
 import { GuageChart } from './highcharts/guage-chart/guage-chart';
+
+//Chart from Mock API
+import { DashboardBarChart } from './highcharts/dashboard-bar-chart/dashboard-bar-chart';
 @Component({
   selector: 'app-root',
   imports: [
@@ -20,6 +23,7 @@ import { GuageChart } from './highcharts/guage-chart/guage-chart';
     PieChart,
     DoughnutChart,
     HighBarChart,
+    DashboardBarChart,
     GuageChart
     //DatePipe, DecimalPipe, CurrencyPipe, JsonPipe
   ],
